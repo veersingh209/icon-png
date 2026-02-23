@@ -1,52 +1,18 @@
 {
-  "version": "1.1.1",
-  "exportDate": "2026-02-23T14:02:00Z",
-  "borderThicknessIndices": {
-    "\\b(?:DV|Dolby\\sVision)\\b": 2,
-    "(?i)\\bdts[ .\\-_]?hd(?![ .\\-_]?ma)\\b": 0,
-    "(?i)\\batmos\\b": 2,
-    "\\b(?:4K|UHD|2160p)\\b": 2,
-    "\\bTrueHD\\b": 2,
-    "(?i)\\bHDR[ .\\-_]?10[ .\\-_]?(plus|\\+)(?!\\w)": 2,
-    "\\bHDR\\b": 2
-  },
-  "tagEnabled": [
-    "(?i)\\b(dv|dovi|dolby[ ._-]?vision)\\b",
-    "(?i)\\batmos\\b",
-    "\\bTrueHD\\b",
-    "\\b(?:4K|UHD|2160p)\\b",
-    "(?i)\\b(bd|hd|m)?1080[pi]?\\b",
-    "(?i)\\b(bd|hd|m)?720[pi]?\\b"
-  ],
-  "colorIndices": {
-    "(?i)\\b(dv|dovi|dolby[ ._-]?vision)\\b": 5,
-    "(?i)\\bATMOS\\b": 6,
-    "\\b(?:4K|UHD|2160p)\\b": 1,
-    "\\bHDR\\b": 5,
-    "\\bTrueHD\\b": 6
+  "version": "1.1.2",
+  "imageURLs": {
+    "(?i)\\batmos\\b": "https://raw.githubusercontent.com/veersingh209/icon-png/main/Atmos.png",
+    "(?i)\\b(dv|dovi|dolby[ ._-]?vision)\\b": "https://raw.githubusercontent.com/veersingh209/icon-png/main/DV.png",
+    "\\b(?:4K|UHD|2160p)\\b": "https://raw.githubusercontent.com/veersingh209/icon-png/main/4k.png"
   },
   "customNames": {
-    "(?i)\\b(dv|dovi|dolby[ ._-]?vision)\\b": "DV",
     "(?i)\\batmos\\b": "ATMOS",
-    "(?i)true[ .\\-_]?hd": "TRUEHD",
-    "\\b(?:4K|UHD|2160p)\\b": "4K UHD",
-    "(?i)\\b(bd|hd|m)?1080[pi]?\\b": "1080p",
-    "(?i)\\b(bd|hd|m)?720[pi]?\\b": "720p",
-    "(?i)\\bHDR[ .\\-_]?10[ .\\-_]?(\\+|plus)\\b": "HDR10+",
-    "(?i)\\bHDR\\b": "HDR"
-  },
-  "imageURLs": {
-    "(?i)\\batmos\\b": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/Atmos.png",
-    "(?i)\\b(dv|dovi|dolby[ ._-]?vision)\\b": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/DV.png",
-    "(?i)true[ .\\-_]?hd": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/TrueHD.png",
-    "\\b(?:4K|UHD|2160p)\\b": "https://raw.githubusercontent.com/jorgitoxp/Regexes/refs/heads/main/mousa.m%20icons/4k.png"
+    "(?i)\\b(dv|dovi|dolby[ ._-]?vision)\\b": "DV",
+    "\\b(?:4K|UHD|2160p)\\b": "4K UHD"
   },
   "patterns": [
-    "(?i)\\b(dv|dovi|dolby[ ._-]?vision)\\b",
     "(?i)\\batmos\\b",
-    "(?i)true[ .\\-_]?hd",
-    "\\b(?:4K|UHD|2160p)\\b",
-    "(?i)\\b(bd|hd|m)?1080[pi]?\\b",
-    "(?i)\\b(bd|hd|m)?720[pi]?\\b"
+    "(?i)\\b(dv|dovi|dolby[ ._-]?vision)\\b",
+    "\\b(?:4K|UHD|2160p)\\b"
   ]
 }
