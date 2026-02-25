@@ -2043,7 +2043,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "E2EEC0FC-29C0-4D71-9975-ADA177E1F4FB",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-007.png",
@@ -2061,7 +2061,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "alien",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-alien.png",
@@ -2079,7 +2079,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "avatar",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-avatar.png",
@@ -2097,7 +2097,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "back-to-the-future",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-back-to-the-future.png",
@@ -2115,7 +2115,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "blade-runner",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-blade-runner.png",
@@ -2133,7 +2133,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "conjuring",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-conjuring.png",
@@ -2151,7 +2151,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "creed",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-creed.png",
@@ -2169,7 +2169,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "dc-comics",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-dc-comics.png",
@@ -2187,7 +2187,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "dune",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-dune.png",
@@ -2205,7 +2205,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "expendables",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-expendables.png",
@@ -2223,7 +2223,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "fast-and-furious",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-fast-furious.png",
@@ -2241,7 +2241,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "ghostbusters",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-ghostbusters.png",
@@ -2259,7 +2259,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "godfather",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-godfather.png",
@@ -2277,7 +2277,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "harry-potter",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-harry-potter.png",
@@ -2295,7 +2295,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "indiana-jones",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-indiana-jones.png",
@@ -2313,7 +2313,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "john-wick",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-john-wick.png",
@@ -2331,7 +2331,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "jurassic-park",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-jurassic-park.png",
@@ -2349,7 +2349,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "marvel",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-marvel.png",
@@ -2367,7 +2367,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "matrix",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-matrix.png",
@@ -2385,7 +2385,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "mission-impossible",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-mission-impossible.png",
@@ -2403,7 +2403,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "pirates-of-the-caribbean",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-pirates-of-the-caribbean.png",
@@ -2421,7 +2421,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "planet-of-the-apes",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-planet-of-the-apes.png",
@@ -2439,7 +2439,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "rambo",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-rambo.png",
@@ -2457,7 +2457,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "rocky",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-rocky.png",
@@ -2475,7 +2475,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "scooby-doo",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-scooby-doo.png",
@@ -2493,7 +2493,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "star-trek",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-star-trek.png",
@@ -2511,7 +2511,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "star-wars",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-star-wars.png",
@@ -2529,7 +2529,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "the-hunger-games",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-the-hunger-games.png",
@@ -2547,7 +2547,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "the-lord-of-the-rings",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-the-lord-of-the-rings.png",
@@ -2565,7 +2565,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "transformers",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/Yakuza2635\/fusion_app-content\/main\/folders\/posters\/collections\/collection-transformers.png",
