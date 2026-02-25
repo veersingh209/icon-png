@@ -1923,7 +1923,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "27D603FA-4F55-4A44-B8FF-C5DA4CDD27AF",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/veersingh209\/icon-png\/main\/icons\/accreditedCollections\/rottenTomatoesMovies.png",
