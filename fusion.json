@@ -76,7 +76,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "0CED5664-6650-4591-B1DC-AAF8A70D3174",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/netflix-square.png",
@@ -103,7 +103,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "75805F13-F034-4D13-B26F-42A30BC20043",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/appletv-square.png",
@@ -130,7 +130,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "4D21AA93-AA9B-4BB3-912F-1D4005B205CC",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/max-square.png",
@@ -157,7 +157,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "656818BB-3A3C-4DE6-9704-CCA16F06C11A",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/paramount-square.png",
@@ -184,7 +184,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "C23E5BCF-6181-4561-8DED-E6D84347B35A",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/peacock-square.png",
@@ -211,7 +211,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "CA61FEF7-F3F4-4FF1-A7AB-4D1E2633B097",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/hulu-square.png",
@@ -238,7 +238,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "7EEFE8B8-BEC9-4CD6-9224-2F3C860B95CA",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/primevideo-square.png",
@@ -265,7 +265,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "FE649C67-65C1-493E-AAD1-3D746ABA3862",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/disney-square.png",
@@ -283,7 +283,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "871ADAEB-539D-41AB-B37A-29FD86AB9B63",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/www.bravotv.com\/sites\/bravo\/files\/2025\/11\/bravo-logo.jpg",
@@ -301,7 +301,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "83B2C56E-7653-451E-94B9-FF0942CC042F",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/discoveryplus-square.png",
@@ -319,7 +319,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "B66D3E23-C33B-4666-8323-ED6B7A75C5A0",
               "imageAspect" : "square",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/skyshowtime-square.png",
@@ -1803,7 +1803,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "9B203A86-9C01-4A52-B930-B3F36ABBECD5",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/i.postimg.cc\/QNYfLF1k\/Gemini-Generated-Image-vu5vcbvu5vcbvu5v.jpg",
@@ -1821,7 +1821,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "67B31F23-D1F6-4422-B033-CEC11633644E",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/i.postimg.cc\/90JPsR6R\/Gemini-Generated-Image-nrzzatnrzzatnrzz.jpg",
@@ -1839,7 +1839,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "B62FFE83-246A-4841-9A9D-3FFB489CE881",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/i.postimg.cc\/QC0gv92V\/05-00s-2-2.jpg",
@@ -1857,7 +1857,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "52EFD12F-603F-46D4-A6A7-B0FB6DAF45DA",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/i.postimg.cc\/rsQG70BK\/04-90s-2.jpg",
@@ -1875,7 +1875,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "9EA0C8C5-5BC7-49DB-A36F-8642339233EF",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/i.postimg.cc\/gjNy1XCj\/03-80s-2.jpg",
@@ -1893,7 +1893,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "012B97BD-8FC9-4121-A4B3-CF85467E0A16",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/i.postimg.cc\/sDB9TcjG\/02-70s-2.jpg",
@@ -1941,7 +1941,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "D071E0F2-6DC3-41AA-9935-D9D3905A38BC",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/veersingh209\/icon-png\/main\/icons\/accreditedCollections\/rottenTomatoesShows.png",
@@ -1959,7 +1959,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "964D0FE0-E2B4-4244-B506-3431C61A401E",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/i.postimg.cc\/3wFcLzRk\/temp-Imageukw8Tq.avif",
@@ -1977,7 +1977,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "6F6882AF-3BB7-4F07-BBE4-F85AB1F28662",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/i.postimg.cc\/3xszRgvT\/IMG-0582.jpg",
@@ -1995,7 +1995,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "339BEA08-7D05-474C-8A37-BA2CBD49F21D",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/veersingh209\/icon-png\/main\/icons\/accreditedCollections\/metacriticMovies.png",
@@ -2013,7 +2013,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "537771C5-F38C-4866-B927-9BC258E16BE7",
               "imageAspect" : "wide",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/veersingh209\/icon-png\/main\/icons\/accreditedCollections\/metacriticShows.png",
@@ -2595,7 +2595,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "C58803F9-FD39-4883-B071-EFD2F1958B30",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/bafta-poster.png",
@@ -2613,7 +2613,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "916FFA3C-C83F-4D5B-8C16-73EE10466C7D",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/fisa-poster.png",
@@ -2631,7 +2631,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "7625F088-76A2-4205-AEEF-57BB9213B6A4",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/goldenglobes-poster.png",
@@ -2649,7 +2649,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "53E09759-4582-4F74-8CBE-7C11D51238A9",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/iff-poster.png",
@@ -2667,7 +2667,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "C4D3FAA0-AD75-46F1-A852-B9E8B3659034",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/oscars-poster.png",
@@ -2685,7 +2685,7 @@
                   }
                 }
               ],
-              "hideTitle" : true,
+              "hideTitle" : false,
               "id" : "A0B38152-ED99-4E70-BDBB-97968091B3E0",
               "imageAspect" : "poster",
               "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/viff-poster.png",
