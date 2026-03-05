@@ -1,0 +1,2912 @@
+{
+  "exportType" : "fusionWidgets",
+  "exportVersion" : 1,
+  "widgets" : [
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Watchlist: Series",
+          "listSlug" : "__watchlist_shows__",
+          "traktId" : -12,
+          "username" : "__me__"
+        }
+      },
+      "id" : "trakt.565E3587-BA8E-4E0D-A258-19464341BDF1",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Watchlist: Series",
+      "type" : "hero.banner"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Watchlist: Movies",
+          "listSlug" : "__watchlist_movies__",
+          "traktId" : -11,
+          "username" : "__me__"
+        }
+      },
+      "id" : "trakt.85F9EE47-CCA6-475F-AD70-4C3EAB0C8F78",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Watchlist: Movies",
+      "type" : "hero.banner"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Netflix Movies",
+                    "listSlug" : "top-netflix-movies",
+                    "traktId" : 33032882,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Netflix Shows",
+                    "listSlug" : "top-netflix-shows",
+                    "traktId" : 33032878,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "0CED5664-6650-4591-B1DC-AAF8A70D3174",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/netflix-square.png",
+              "title" : "Netflix"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Apple TV+ Movies",
+                    "listSlug" : "top-apple-tv-movies",
+                    "traktId" : 33032900,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Apple TV+ Shows",
+                    "listSlug" : "top-apple-tv-shows",
+                    "traktId" : 33032894,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "75805F13-F034-4D13-B26F-42A30BC20043",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/appletv-square.png",
+              "title" : "Appletv"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Max Movies",
+                    "listSlug" : "max-movies",
+                    "traktId" : 30828916,
+                    "username" : "tvgeniekodi"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Max Shows",
+                    "listSlug" : "max-shows",
+                    "traktId" : 30828923,
+                    "username" : "tvgeniekodi"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "4D21AA93-AA9B-4BB3-912F-1D4005B205CC",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/max-square.png",
+              "title" : "Max"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Paramount+ Movies",
+                    "listSlug" : "top-paramount-movies",
+                    "traktId" : 33032910,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Paramount+ Shows",
+                    "listSlug" : "top-paramount-shows",
+                    "traktId" : 33032908,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "656818BB-3A3C-4DE6-9704-CCA16F06C11A",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/paramount-square.png",
+              "title" : "Paramount"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Peacock Movies",
+                    "listSlug" : "peacock-movies",
+                    "traktId" : 30504299,
+                    "username" : "tvgeniekodi"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Peacock Shows",
+                    "listSlug" : "peacock-shows",
+                    "traktId" : 30504294,
+                    "username" : "tvgeniekodi"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "C23E5BCF-6181-4561-8DED-E6D84347B35A",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/peacock-square.png",
+              "title" : "Peacock"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Hulu Movies",
+                    "listSlug" : "top-hulu-movies",
+                    "traktId" : 33118941,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Hulu Shows",
+                    "listSlug" : "top-hulu-shows",
+                    "traktId" : 33118956,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "CA61FEF7-F3F4-4FF1-A7AB-4D1E2633B097",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/hulu-square.png",
+              "title" : "Hulu"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Amazon Prime Movies",
+                    "listSlug" : "top-amazon-prime-movies",
+                    "traktId" : 33032892,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Amazon Prime Shows",
+                    "listSlug" : "top-amazon-prime-shows",
+                    "traktId" : 33032887,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "7EEFE8B8-BEC9-4CD6-9224-2F3C860B95CA",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/primevideo-square.png",
+              "title" : "Primevideo"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Disney+ Movies",
+                    "listSlug" : "top-disney-movies",
+                    "traktId" : 33032904,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Disney+ Shows",
+                    "listSlug" : "top-disney-shows",
+                    "traktId" : 33032903,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "FE649C67-65C1-493E-AAD1-3D746ABA3862",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/disney-square.png",
+              "title" : "Disney"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Bravo",
+                    "listSlug" : "bravo",
+                    "traktId" : 4470728,
+                    "username" : "kylesheila"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "871ADAEB-539D-41AB-B37A-29FD86AB9B63",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/www.bravotv.com\/sites\/bravo\/files\/2025\/11\/bravo-logo.jpg",
+              "title" : "Bravo"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Discovery+",
+                    "listSlug" : "discovery",
+                    "traktId" : 21043278,
+                    "username" : "moviemankev79"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "83B2C56E-7653-451E-94B9-FF0942CC042F",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/discoveryplus-square.png",
+              "title" : "Discoveryplus"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "skyshowtime",
+                    "listSlug" : "skyshowtime",
+                    "traktId" : 33841165,
+                    "username" : "certefied"
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "B66D3E23-C33B-4666-8323-ED6B7A75C5A0",
+              "imageAspect" : "square",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/streaming\/square\/orangebyte\/original\/skyshowtime-square.png",
+              "title" : "Skyshowtime"
+            }
+          ]
+        }
+      },
+      "id" : "collection.DD2D711F-60AA-4D3E-80A7-DEDEBFF7BB96",
+      "title" : "Streaming",
+      "type" : "collection.row"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Trending Shows",
+          "listSlug" : "trending-shows",
+          "traktId" : 33032820,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.210F244C-9105-45D5-882F-B8E27DEF935D",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Trending Shows",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Trending Movies",
+          "listSlug" : "trending-movies",
+          "traktId" : 33032593,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.13ED61FB-3318-412B-802F-AD2FD3A06F98",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Trending Movies",
+      "type" : "row.classic.numbered"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Action Adventures",
+                    "listSlug" : "action-adventures",
+                    "traktId" : 22032289,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "264849E0-77D4-4EAA-90E9-63C80E876698",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/action-adventures-wide.png",
+              "title" : "Action-adventures"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Action Thrillers",
+                    "listSlug" : "action-thrillers",
+                    "traktId" : 22032335,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "CE293D0E-7908-4D03-B5DD-CC4742F23551",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/action-thrillers-wide.png",
+              "title" : "Action-thrillers"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Action Movies",
+                    "listSlug" : "popular-action-movies",
+                    "traktId" : 33032919,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Action Shows",
+                    "listSlug" : "popular-action-shows",
+                    "traktId" : 33032916,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "C87D84D8-265A-47B6-AB18-83155614F8EC",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/action-wide.png",
+              "title" : "Action"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Adult Animation",
+                    "listSlug" : "adult-animation",
+                    "traktId" : 29542536,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "36C7B12A-6622-44BC-8E90-E8E285C9CE90",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/adult-animation-wide.png",
+              "title" : "Adult-animation"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Adventures",
+                    "listSlug" : "adventures",
+                    "traktId" : 22032399,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "433053AD-F843-4FB5-9EBC-22A4161E8AF1",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/adventure-wide.png",
+              "title" : "Adventure"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Aliens & Monsters",
+                    "listSlug" : "aliens-monsters",
+                    "traktId" : 22034737,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "95AAB178-A996-462F-9139-750F6D09BB66",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/aliens-wide.png",
+              "title" : "Aliens"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Animated Movies",
+                    "listSlug" : "popular-animated-movies",
+                    "traktId" : 33032925,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Animated Shows",
+                    "listSlug" : "popular-animated-shows",
+                    "traktId" : 33032922,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B75E14DC-F7EC-41DF-A996-3A5C59CE4CEA",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/animated-comedies-wide.png",
+              "title" : "Animated-comedies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Animated Movies",
+                    "listSlug" : "popular-animated-movies",
+                    "traktId" : 33032925,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Animated Shows",
+                    "listSlug" : "popular-animated-shows",
+                    "traktId" : 33032922,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "93703A22-820E-449A-B3AB-0C577D906F00",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/animation-wide.png",
+              "title" : "Animation"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Animation\/Anime Movies",
+                    "listSlug" : "popular-animation-anime-movies",
+                    "traktId" : 33032928,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Animation\/Anime Shows",
+                    "listSlug" : "popular-animation-anime-shows",
+                    "traktId" : 33032927,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "ED10AC79-C5F8-49D3-AC31-A851B013AF9F",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/anime-wide.png",
+              "title" : "Anime"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Stop Motion Animation",
+                    "listSlug" : "stop-motion-animation",
+                    "traktId" : 29542698,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "F522D95C-9F1D-483B-9990-FF400E5F0AFA",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/arthouse-animation-wide.png",
+              "title" : "Arthouse-animation"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Cult Classics",
+                    "listSlug" : "cult-classics",
+                    "traktId" : 22037939,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "969A8692-9BFA-4ABA-B7D9-E32CD497BE3C",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/classics-wide.png",
+              "title" : "Classics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Comedy Movies",
+                    "listSlug" : "popular-comedy-movies",
+                    "traktId" : 33032930,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Comedy Shows",
+                    "listSlug" : "popular-comedy-shows",
+                    "traktId" : 33032929,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "FDB562EA-FFF6-474C-8525-4BDAADEFAFDB",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/comedy-wide.png",
+              "title" : "Comedy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Occult Horrors",
+                    "listSlug" : "occult-horrors",
+                    "traktId" : 25294423,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "1D1F1C21-9BA5-4FD6-940A-02C5A6BB2185",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/creature-features-wide.png",
+              "title" : "Creature-features"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Crime",
+                    "listSlug" : "crime",
+                    "traktId" : 20770341,
+                    "username" : "garycrawfordgc"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Crime Shows",
+                    "listSlug" : "crime-shows",
+                    "traktId" : 20772104,
+                    "username" : "garycrawfordgc"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B0836B63-09E0-4381-848C-8F5EC6DAE5DB",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/crime-wide.png",
+              "title" : "Crime"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Dark Fantasy Movies",
+                    "listSlug" : "dark-fantasy-movies",
+                    "traktId" : 25292649,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "44CF81CB-FA05-463C-9F45-FA802FC8CD9E",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/dark-fantasy-wide.png",
+              "title" : "Dark-fantasy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Disaster Movies",
+                    "listSlug" : "disaster-movies",
+                    "traktId" : 29003154,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "05217B7F-D3B1-407B-AA6D-9F91FD78CEE1",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/disaster-epics-wide.png",
+              "title" : "Disaster-epics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Documentary Movies",
+                    "listSlug" : "popular-documentary-movies",
+                    "traktId" : 33123349,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Documentary Shows",
+                    "listSlug" : "popular-documentary-shows",
+                    "traktId" : 33123359,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9BACF09C-1D32-4E77-B08E-FEDED319FC86",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/documentary-wide.png",
+              "title" : "Documentary"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Drama Movies",
+                    "listSlug" : "popular-drama-movies",
+                    "traktId" : 33032935,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Drama Shows",
+                    "listSlug" : "popular-drama-shows",
+                    "traktId" : 33032934,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "35662AA0-F373-402B-9BCE-8DB40A4B44A3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/drama-wide.png",
+              "title" : "Drama"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Dystopian Future",
+                    "listSlug" : "dystopian-future",
+                    "traktId" : 29006737,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "4E86A6D9-0590-442A-9EC2-68063C36BF3C",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/dystopian-futures-wide.png",
+              "title" : "Dystopian-futures"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Family Movies",
+                    "listSlug" : "family-movies",
+                    "traktId" : 22032854,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "AC0B066F-717F-439D-8E05-E751AE8552C6",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/family-movie-night-wide.png",
+              "title" : "Family-movie-night"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Action Fantasy",
+                    "listSlug" : "action-fantasy",
+                    "traktId" : 22033076,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "046A3D99-B270-4522-8E2D-9A172F9A368A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/fantasy-adventures-wide.png",
+              "title" : "Fantasy-adventures"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Fantasy Movies",
+                    "listSlug" : "fantasy-movies",
+                    "traktId" : 22033383,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9E17E250-DCE0-43A9-9790-1CD7EDBCCB52",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/fantasy-wide.png",
+              "title" : "Fantasy"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Hand-drawn Animation",
+                    "listSlug" : "hand-drawn-animation",
+                    "traktId" : 29542636,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "5EE724A9-2D09-4E50-9456-3621BEBFDF85",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/favorite-cartoons-wide.png",
+              "title" : "Favorite-cartoons"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Neo-Western",
+                    "listSlug" : "neo-western",
+                    "traktId" : 30751117,
+                    "username" : "MadMapper"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "DB8B3BD7-472E-4193-A98D-D5F64CC4CFFE",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/frontier-grit-wide.png",
+              "title" : "Frontier-grit"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Sea Adventures",
+                    "listSlug" : "sea-adventures",
+                    "traktId" : 29190890,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B120B8D3-06D0-4385-9B1C-9C2621A142A9",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/high-seas-heroics-wide.png",
+              "title" : "High-seas-heroics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Directory of World Cinema: American Hollywood",
+                    "listSlug" : "directory-of-world-cinema-american-hollywood",
+                    "traktId" : 801510,
+                    "username" : "sp1ti"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "6CADBE85-9E65-464A-85E2-8363DAD1956D",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/historical-blockbusters-wide.png",
+              "title" : "Historical-blockbusters"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Horror Movies",
+                    "listSlug" : "popular-horror-movies",
+                    "traktId" : 33032936,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Horror Shows",
+                    "listSlug" : "popular-horror-shows",
+                    "traktId" : 33032939,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7307EF59-6A80-4E03-AFDD-80D34D1977A2",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/horror-wide.png",
+              "title" : "Horror"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Indie Movies",
+                    "listSlug" : "indie-movies",
+                    "traktId" : 32356098,
+                    "username" : "pastican"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "D23DDA1E-92AE-4508-9397-759228DB5828",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/independent-wide.png",
+              "title" : "Independent"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Critically Acclaimed Foreign Movies",
+                    "listSlug" : "critically-acclaimed-foreign-movies",
+                    "traktId" : 22038460,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "37741FB0-6C45-44FA-8C65-8CE506064C77",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/international-wide.png",
+              "title" : "International"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Trending Kids Movies",
+                    "listSlug" : "trending-kids-movies",
+                    "traktId" : 33032833,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Trending Kids Shows",
+                    "listSlug" : "trending-kids-shows",
+                    "traktId" : 30828731,
+                    "username" : "tvgeniekodi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B16CE080-84F9-4476-9F94-CE7265CE12D3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/kids-wide.png",
+              "title" : "Kids"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "History & Politics",
+                    "listSlug" : "history-politics",
+                    "traktId" : 30683818,
+                    "username" : "enverkolsuzoglu"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "1D7BDD27-FF75-447E-9077-BB755C21208E",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/learning-corner-wide.png",
+              "title" : "Learning-corner"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Animal Tales",
+                    "listSlug" : "animal-tales",
+                    "traktId" : 25294772,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "31089EDE-83EB-487D-AEAF-1E7BA8C2FB5E",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/lovable-monsters-wide.png",
+              "title" : "Lovable-monsters"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Music (Movies)",
+                    "listSlug" : "music-movies",
+                    "traktId" : 32946423,
+                    "username" : "jiobiee"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "54DADA4E-140D-42F9-994E-E186D31CE7A5",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/music-movies-wide.png",
+              "title" : "Music-movies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Music",
+                    "listSlug" : "music",
+                    "traktId" : 33688283,
+                    "username" : "Kirky62"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "0A67FFEA-62F6-4AA3-83E2-471B8663458A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/music-wide.png",
+              "title" : "Music"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Myths and Legends",
+                    "listSlug" : "myths-and-legends",
+                    "traktId" : 2287019,
+                    "username" : "kristaeglover"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "FC20FAA7-F01E-4234-BC9D-609478F58DC3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/myths-and-legends-wide.png",
+              "title" : "Myths-and-legends"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Nature Shows",
+                    "listSlug" : "top-nature-shows",
+                    "traktId" : 30546891,
+                    "username" : "tvgeniekodi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "9AE5F85F-F509-4A75-A38D-F158A8C4B1FE",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/nature-wide.png",
+              "title" : "Nature"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Psychological Thrillers",
+                    "listSlug" : "psychological-thrillers",
+                    "traktId" : 21112021,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "300A0D08-1D7D-4A12-BCCA-DCFB2C56FB4B",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/psychological-terror-wide.png",
+              "title" : "Psychological-terror"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Reality Shows",
+                    "listSlug" : "popular-reality-shows",
+                    "traktId" : 33123585,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "6B0D498F-5299-42FA-A9CF-0A5003D08EE0",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/reality-wide.png",
+              "title" : "Reality"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Artificial Intelligence",
+                    "listSlug" : "artificial-intelligence",
+                    "traktId" : 27251319,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7D4ADD9B-B8E5-4B63-B6E7-312F9AD1F169",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/robots-and-ai-wide.png",
+              "title" : "Robots-and-ai"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Romance Movies",
+                    "listSlug" : "popular-romance-movies",
+                    "traktId" : 33132644,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Romance Shows",
+                    "listSlug" : "popular-romance-shows",
+                    "traktId" : 33132723,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "4B8CA79A-9F83-4B82-9C8B-542A4B050ED7",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/romance-wide.png",
+              "title" : "Romance"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Sci-Fi Movies",
+                    "listSlug" : "popular-sci-fi-movies",
+                    "traktId" : 33032944,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Sci-Fi Shows",
+                    "listSlug" : "popular-sci-fi-shows",
+                    "traktId" : 33032946,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "5AB76644-E4C7-4986-AA51-49B8775272E2",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/sci-fi-wide.png",
+              "title" : "Sci-fi"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Short Films…",
+                    "listSlug" : "short-films",
+                    "traktId" : 33531583,
+                    "username" : "JustFrank"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "D56AA82F-4371-4A9D-BCF9-73BEA0818E35",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/short-films-wide.png",
+              "title" : "Short-films"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Astronomy & Space",
+                    "listSlug" : "astronomy-space",
+                    "traktId" : 20709064,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "715A7968-6088-4E7E-BB3B-F36508147954",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/space-epics-wide.png",
+              "title" : "Space-epics"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Spy & Espionage Movies",
+                    "listSlug" : "spy-espionage-movies",
+                    "traktId" : 27251299,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "8B07DAC0-8C98-4467-BF8C-ED8E4D10E67D",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/spies-wide.png",
+              "title" : "Spies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Supernatural Horrors",
+                    "listSlug" : "supernatural-horrors",
+                    "traktId" : 29003049,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "D531D8D3-5D4E-4EBF-A984-37AA0BA83A85",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/super-shocks-wide.png",
+              "title" : "Super-shocks"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Superhero Movies",
+                    "listSlug" : "superhero-movies",
+                    "traktId" : 25287616,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "4BA2E5B5-FFF8-478D-8ABC-2F0712E14878",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/superheroes-wide.png",
+              "title" : "Superheroes"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Melodramas",
+                    "listSlug" : "melodramas",
+                    "traktId" : 25294311,
+                    "username" : "rizreflects"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "F6D30FF5-DF03-4D00-AC7F-22E04EFE4922",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/tearjerkers-wide.png",
+              "title" : "Tearjerkers"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Recommended Techno & Cyber Thrillers (in progress)",
+                    "listSlug" : "recommended-techno-cyber-thrillers-in-progress",
+                    "traktId" : 33186386,
+                    "username" : "acanas"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B477878E-B05B-4D42-A98E-38E28ECD1B09",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/techno-thrillers-wide.png",
+              "title" : "Techno-thrillers"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Thriller Movies",
+                    "listSlug" : "popular-thriller-movies",
+                    "traktId" : 33032952,
+                    "username" : "snoak"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular Thriller Shows",
+                    "listSlug" : "popular-thriller-shows",
+                    "traktId" : 33032950,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "4069078D-D87C-4AF1-A9F9-021C20756F62",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/thriller-wide.png",
+              "title" : "Thriller"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Treasure Hunts",
+                    "listSlug" : "treasure-hunts",
+                    "traktId" : 25761060,
+                    "username" : "WayneCity"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "6A5997FA-06CB-47C9-A7BB-487C6A78262A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/treasure-hunts-wide.png",
+              "title" : "Treasure-hunts"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "VHS Nightmares",
+                    "listSlug" : "vhs-nightmares",
+                    "traktId" : 33606804,
+                    "username" : "MMagTech"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "B7BD03FD-27E0-415D-B651-83EF434FF5BA",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/vhs-era-frightmares-wide.png",
+              "title" : "Vhs-era-frightmares"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "War",
+                    "listSlug" : "war",
+                    "traktId" : 20770418,
+                    "username" : "garycrawfordgc"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular War Shows",
+                    "listSlug" : "popular-war-shows",
+                    "traktId" : 33763475,
+                    "username" : "Azodath"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "2A2C607A-901B-4CC7-9B09-5AF1439D618F",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/war-stories-wide.png",
+              "title" : "War-stories"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top Westerns",
+                    "listSlug" : "top-westerns",
+                    "traktId" : 30548156,
+                    "username" : "tvgeniekodi"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "91F3C68F-DB7B-4085-BE9E-A0C423962B5B",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/westerns-wide.png",
+              "title" : "Westerns"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Whodunit?",
+                    "listSlug" : "whodunit",
+                    "traktId" : 32607220,
+                    "username" : "J-Cao"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Cozy Mysteries \/ whodunit \/ Cozies \/ family friendly (? *) mystery movies and shows",
+                    "listSlug" : "cozy-mysteries-whodunit-cozies-family-friendly-mystery-movies-and-shows",
+                    "traktId" : 26925658,
+                    "username" : "Midnitewolf"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "BBFC9B3E-BBE1-49E2-9909-DD8ACA064E2E",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/whodunits-wide.png",
+              "title" : "Whodunits"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Top 20 Workplace Comedies",
+                    "listSlug" : "top-20-workplace-comedies",
+                    "traktId" : 9834543,
+                    "username" : "jarvis-8243417"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "AF742092-D759-439F-A4E8-3A0A3662A315",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/workplace-comedies-wide.png",
+              "title" : "Workplace-comedies"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Zombie Movies",
+                    "listSlug" : "zombie-movies",
+                    "traktId" : 33136385,
+                    "username" : "emsishere"
+                  }
+                },
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Zombie Shows",
+                    "listSlug" : "zombie-shows",
+                    "traktId" : 32149974,
+                    "username" : "QCNate"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "0AD6D183-5DA2-4574-9672-A617A0451C31",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/genres\/wide\/dannyrutledge\/zombie-orama-wide.png",
+              "title" : "Zombie-orama"
+            }
+          ]
+        }
+      },
+      "id" : "collection.710014AC-D120-49BE-A250-3DCEF71C5797",
+      "title" : "Genres",
+      "type" : "collection.row"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "traktRecommendations",
+        "payload" : {
+          "ignoreWatchlisted" : true,
+          "limit" : 20,
+          "type" : "shows"
+        }
+      },
+      "id" : "trakt.rec.0B232CFA-68CD-46F1-8C20-09F0311F70C5",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Recommended Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 1800,
+      "dataSource" : {
+        "kind" : "traktRecommendations",
+        "payload" : {
+          "ignoreWatchlisted" : true,
+          "limit" : 20,
+          "type" : "movies"
+        }
+      },
+      "id" : "trakt.rec.393D0923-BA6A-4932-B565-43F61555C1CA",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Recommended Movies",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "tmdbDiscover",
+        "payload" : {
+          "limit" : 20,
+          "releaseChannel" : "cinema",
+          "releaseStatus" : "released",
+          "sortBy" : "popularity.desc",
+          "type" : "movie",
+          "voteCountGTE" : 20
+        }
+      },
+      "id" : "starter.carousel.theaters",
+      "limit" : 20,
+      "presentation" : {
+        "aspectRatio" : "backdrop",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "large",
+        "overlay" : "frost"
+      },
+      "sort" : "popularity.desc",
+      "title" : "In Theaters Now",
+      "type" : "carousel.cinematic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Netflix Shows",
+          "listSlug" : "latest-netflix-shows",
+          "traktId" : 33032846,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.A1C75505-471F-4320-B734-284369E6CB07",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Netflix Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Disney+ Shows",
+          "listSlug" : "latest-disney-shows",
+          "traktId" : 33032860,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.1CC86FFC-FBFD-4104-9A39-3CD3BDE64790",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Disney+ Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest HBO Max Shows",
+          "listSlug" : "latest-hbo-max-shows",
+          "traktId" : 33032872,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.B35FC87E-E8E5-4012-B875-41679B92CB2B",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest HBO Max Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Apple TV+ Shows",
+          "listSlug" : "latest-apple-tv-shows",
+          "traktId" : 33032855,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.682686E2-A4FC-4A78-A743-47DE795BBCEE",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Apple TV+ Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Amazon Prime Shows",
+          "listSlug" : "latest-amazon-prime-shows",
+          "traktId" : 33032850,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.45078428-82E2-498C-B4AC-278B86817105",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Amazon Prime Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Paramount+ Shows",
+          "listSlug" : "latest-paramount-shows",
+          "traktId" : 33032863,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.BCCE35B8-66DE-4533-9601-1709E0E2D74C",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Paramount+ Shows",
+      "type" : "row.classic"
+    },
+    {
+      "cacheTTL" : 3600,
+      "dataSource" : {
+        "kind" : "traktList",
+        "payload" : {
+          "listName" : "Latest Hulu Shows",
+          "listSlug" : "latest-hulu-shows",
+          "traktId" : 33118912,
+          "username" : "snoak"
+        }
+      },
+      "id" : "trakt.85ACC48C-E1EA-4097-BF78-4C356A11838A",
+      "limit" : 50,
+      "presentation" : {
+        "aspectRatio" : "poster",
+        "badges" : {
+          "providers" : false,
+          "ratings" : true
+        },
+        "cardStyle" : "medium"
+      },
+      "title" : "Latest Hulu Shows",
+      "type" : "row.classic"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      19292,
+                      4247431
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      19292,
+                      4247431
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "A3658A52-9822-4D55-BF1F-5975CF276936",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/3xS2qdjM\/adam-sandler-2.jpg",
+              "title" : "Adam Sandler"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      18918,
+                      4978313
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      18918,
+                      4978313
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "5FA79F8F-706F-4F83-A0A5-C181460A50C0",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/RZswYN7X\/dwayne_johnson_2.jpg",
+              "title" : "Dwayne Johnson"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      3,
+                      148815
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      3,
+                      148815
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "8E58D7DF-BA8F-4CB2-B505-6ADA5D2ABE01",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/wTSSKj9P\/harisson-ford.jpg",
+              "title" : "Harrison Ford"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      976
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      976
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "9F1C9894-D744-4B7B-8233-59564B9581AF",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/W1bMSMkn\/jason_statham_2.jpg",
+              "title" : "Jason Statham"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      11770,
+                      4669387,
+                      2657998,
+                      3399722,
+                      5835142,
+                      931630,
+                      2244869,
+                      2108522,
+                      1070851,
+                      1391399
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      11770,
+                      4669387,
+                      2657998,
+                      3399722,
+                      5835142,
+                      931630,
+                      2244869,
+                      2108522,
+                      1070851,
+                      1391399
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "03121306-0D42-430B-9CEB-94021BC6859E",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/bwNQLQtG\/john_carpenter_2.jpg",
+              "title" : "John Carpenter"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      1892
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      1892
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "7A425C50-0AE2-41D0-AD2A-C8F54A36F011",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/yYTmFfks\/matt_damon_2.jpg",
+              "title" : "Matt Damon"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      192,
+                      2714289
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      192,
+                      2714289
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "F7105908-79B4-4263-BAC2-90EEB83A0D3D",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/c4W7tq1m\/morgan_freeman_2.jpg",
+              "title" : "Morgan Freeman"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      2963
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      2963
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "88943ED3-18A2-4B22-AB19-0F09AEF14A3B",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/L6Skgd40\/nicolas_cage_2.jpg",
+              "title" : "Nicolas Cage"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      2157,
+                      4170949,
+                      5347894,
+                      2714381,
+                      2010415,
+                      5435168,
+                      2572092,
+                      5071380,
+                      3521670
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      2157,
+                      4170949,
+                      5347894,
+                      2714381,
+                      2010415,
+                      5435168,
+                      2572092,
+                      5071380,
+                      3521670
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "CDCDDB53-7A35-4F01-BA57-C430E0C89BB0",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/J483Hw73\/robin_williams_2.jpg",
+              "title" : "Robin Williams"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      10859
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      10859
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "FBF45ED9-89A1-487A-84CE-EC9FB0C70BB7",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/wTz5RKxc\/ryan_reynolds_2.jpg",
+              "title" : "Ryan Reynolds"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      2231
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      2231
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "34EB56DC-D1E4-41B8-A5BF-42764CAA8772",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/FKKz2prs\/jackson.jpg",
+              "title" : "Samuel L. Jackson"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      488
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      488
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "C3808F00-041B-4D74-B477-7BAA607D4C4B",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/kXCNRrM8\/steven_spielberg_2.jpg",
+              "title" : "Steven Spielberg"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      500
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      500
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "8CFAEC4B-9C69-4E21-A88F-0F9C7AFCEF17",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/XNdcvNWc\/tom_cruise_2.jpg",
+              "title" : "Tom Cruise"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      11701
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      11701
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "C3965C89-BE6A-4373-932C-F36E2A423E87",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/BnY2zXTR\/angelina_jolie_2.jpg",
+              "title" : "Angelina Jolie"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      1813
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      1813
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "409DB551-FF34-4055-90C1-40A57A11BDFD",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/9Q8ykrdK\/anne_hathaway_2.jpg",
+              "title" : "Anne Hathaway"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      287
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      287
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "BF519042-31A6-49AE-B1A7-BBF74433BE37",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/rwn5HK1P\/brad_pitt_2.jpg",
+              "title" : "Brad Pitt"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      2710,
+                      3090357,
+                      4910261,
+                      4152590,
+                      3192447,
+                      4659150
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      2710,
+                      3090357,
+                      4910261,
+                      4152590,
+                      3192447,
+                      4659150
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "85BF325F-F7AC-4325-891B-C36CE81D5991",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/13CDdfGH\/james_cameron_2.jpg",
+              "title" : "James Cameron"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      72129,
+                      4863981
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      72129,
+                      4863981
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "1D958C60-72C9-4865-A9FF-D214AA4E8469",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/L86zvz1Y\/jennifer_lawrance_2.jpg",
+              "title" : "Jennifer Lawrence"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      85
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      85
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "18F72D54-A029-4392-BA79-D46B46240231",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/cL4QTQnx\/johnny_depp_2.jpg",
+              "title" : "Johnny Depp"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      1204,
+                      1555781
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      1204,
+                      1555781
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "21653E93-0F32-4361-9E98-9E2374097C94",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/rwFSgSrp\/julia_roberts_2.jpg",
+              "title" : "Julia Roberts"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      6193
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      6193
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "4621FB75-F6CF-4F0B-B7C0-0F4D593D5148",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/fTvcxHJV\/leonardo_di_caprio_2.jpg",
+              "title" : "Leonardo Di Caprio"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      5064
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      5064
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "C258FB8C-E5B5-4998-9BAD-E9FA405B7DE5",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/Kvb73Xc5\/meryl_streep_2.jpg",
+              "title" : "Meryl Streep"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      2227
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      2227
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "597856B5-932B-45AA-BC57-47D0731718CF",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/X7WKBMNP\/nicole_kidman_2.jpg",
+              "title" : "Nicole Kidman"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      138
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      138
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "346F9D4A-E6D6-43C6-BBFC-ACE68DE25C5D",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/Kvb73Xcw\/quentin_tarantino_2.jpg",
+              "title" : "Quentin Tarantino"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      578
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      578
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "A1150161-FE38-43F5-9DEB-98162E4E7387",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/DycrqCmH\/ridley_scott_2.jpg",
+              "title" : "Ridley Scott"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      3223
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      3223
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "0ABCEB8F-954D-4BB8-87E7-EDE8AAEF65AD",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/gjVvtsst\/downey_jr.jpg",
+              "title" : "Robert Downey Jr"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      18277
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      18277
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "2CEB94EB-900B-4497-A353-617A66E40602",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/kXCNRrMW\/sandra_bullock_2.jpg",
+              "title" : "Sandra Bullock"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      505710
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      505710
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "3BF6BE67-7266-44A1-AE46-30D2A9D3965B",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/J483Hw7y\/zendaya_2.jpg",
+              "title" : "Zendaya"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      1136406,
+                      1277187,
+                      64796,
+                      5832276,
+                      1145610,
+                      6013787
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      1136406,
+                      1277187,
+                      64796,
+                      5832276,
+                      1145610,
+                      6013787
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "347D1F11-7C5F-4893-B2A9-C82397D12A06",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/Y2YfS27z\/tom_holland_2.jpg",
+              "title" : "Tom Holland"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      71580
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      71580
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "1C5B7D4F-08A7-436F-9BD8-E317CF0B2E8C",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/NjJRn56V\/benedict_cumberbatch_2.jpg",
+              "title" : "Benedict Cumberbatch"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      974169
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      974169
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "521CFC69-D213-4F25-98F1-6D584A33BA57",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/qvM8Q83K\/jenna_ortega_2.jpg",
+              "title" : "Jenna Ortega"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "tv",
+                    "withCast" : [
+                      8784,
+                      6009900,
+                      5831704
+                    ]
+                  }
+                },
+                {
+                  "kind" : "tmdbDiscover",
+                  "payload" : {
+                    "sortBy" : "popularity.desc",
+                    "type" : "movie",
+                    "withCast" : [
+                      8784,
+                      6009900,
+                      5831704
+                    ]
+                  }
+                }
+              ],
+              "hideTitle" : false,
+              "id" : "16B1A37E-E840-48ED-969A-9803F2EE6847",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/i.postimg.cc\/BZHcvZ30\/daniel_craig_2.jpg",
+              "title" : "Daniel Craig"
+            }
+          ]
+        }
+      },
+      "id" : "collection.4A460EBE-C37E-40BD-ACB1-FD539FDC7C86",
+      "title" : "Actors",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "07B16E1A-9733-4743-A79C-83B528E4DF3C",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/anderson-wide.png",
+              "title" : "Anderson"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "AC7F02AE-8741-4B3E-A39F-F40D5331722F",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/carpenter-wide.png",
+              "title" : "Carpenter"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "83AADEC3-2EE5-4611-B85E-18B3BFEC3E73",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/depalma-wide.png",
+              "title" : "Depalma"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "7E22EC53-3F0E-4847-914E-BB7EFBF4A890",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/fincher-wide.png",
+              "title" : "Fincher"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "CF0B9F63-E218-4D14-87EE-BD34E038E46A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/hitchcock-wide.png",
+              "title" : "Hitchcock"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "1C7D1BA0-6C6C-464F-9910-4657968FE55B",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/kubrick-wide.png",
+              "title" : "Kubrick"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "4A7D8CD3-3743-4E10-A018-B258F3E7604F",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/nolan-wide.png",
+              "title" : "Nolan"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "F1DA0A73-B949-45FE-950C-0CC83E17CBC1",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/scorsese-wide.png",
+              "title" : "Scorsese"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "9DF126F6-F9F9-4363-9926-4EE72DD77040",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/spielberg-wide.png",
+              "title" : "Spielberg"
+            },
+            {
+              "dataSources" : [
+
+              ],
+              "hideTitle" : true,
+              "id" : "414A2A62-DF0C-4B7E-910E-DB2F87A1E9D3",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/directors\/wide\/fexm92\/villeneuve-wide.png",
+              "title" : "Villeneuve"
+            }
+          ]
+        }
+      },
+      "id" : "collection.D3970BED-E9FB-4E7F-9B21-4809D88D6B7C",
+      "title" : "Directors",
+      "type" : "collection.row"
+    }
+  ]
+}
