@@ -1794,6 +1794,228 @@
             {
               "dataSources" : [
                 {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "BAFTA - Best Film Award Winners",
+                    "listSlug" : "bafta-best-film-award-winners",
+                    "traktId" : 24791084,
+                    "username" : "foux72"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "C58803F9-FD39-4883-B071-EFD2F1958B30",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/bafta-poster.png",
+              "title" : "Bafta"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Film Independent Spirit Awards — Best Feature",
+                    "listSlug" : "film-independent-spirit-awards-best-feature",
+                    "traktId" : 32197432,
+                    "username" : "victorchagas"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "916FFA3C-C83F-4D5B-8C16-73EE10466C7D",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/fisa-poster.png",
+              "title" : "Fisa"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Rotten Tomatoes’ Golden Globes Best Picture Winners by Tomatometer copy",
+                    "listSlug" : "rotten-tomatoes-golden-globes-best-picture-winners-by-tomatometer-copy",
+                    "traktId" : 6241767,
+                    "username" : "danielle0412"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7625F088-76A2-4205-AEEF-57BB9213B6A4",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/goldenglobes-poster.png",
+              "title" : "Goldenglobes"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Festival de Cannes: Palme d'Or winners",
+                    "listSlug" : "festival-de-cannes-palme-d-or-winners",
+                    "traktId" : 32434377,
+                    "username" : "PierreDurrr"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "53E09759-4582-4F74-8CBE-7C11D51238A9",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/iff-poster.png",
+              "title" : "Iff"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "The Oscars: Best Picture Nominees",
+                    "listSlug" : "the-oscars-best-picture-nominees",
+                    "traktId" : 33535789,
+                    "username" : "jackrabbitslim"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "C4D3FAA0-AD75-46F1-A852-B9E8B3659034",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/oscars-poster.png",
+              "title" : "Oscars"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Venice Film Festival - Golden Lion",
+                    "listSlug" : "venice-film-festival-golden-lion",
+                    "traktId" : 9360302,
+                    "username" : "maxwelldeux"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "A0B38152-ED99-4E70-BDBB-97968091B3E0",
+              "imageAspect" : "poster",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/awards\/poster\/mousa.a\/viff-poster.png",
+              "title" : "Viff"
+            }
+          ]
+        }
+      },
+      "id" : "collection.624AE481-A010-400F-8C4F-F1ADBAADAA95",
+      "title" : "Awards",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 1980s Movies",
+                    "listSlug" : "popular-1980s-movies",
+                    "traktId" : 33032956,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "C6E94F33-3BD9-4582-A78A-E9FCFC2E53B5",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/rdnoni\/1980s-wide.jpg",
+              "title" : "1980s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 1990s Movies",
+                    "listSlug" : "popular-1990s-movies",
+                    "traktId" : 33032959,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "7BE225B8-B8A3-48A2-ABB9-EAD216A4F78A",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/rdnoni\/1990s-wide.jpg",
+              "title" : "1990s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 2000s Movies",
+                    "listSlug" : "popular-2000s-movies",
+                    "traktId" : 33032965,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "D96F2DCC-AC27-4FA1-B430-40E84733152C",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/rdnoni\/2000s-wide.jpg",
+              "title" : "2000s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 2010s Movies",
+                    "listSlug" : "popular-2010s-movies",
+                    "traktId" : 33032968,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "3E9A3D75-2EC3-4860-A1ED-460501BB0CE9",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/rdnoni\/2010s-wide.jpg",
+              "title" : "2010s"
+            },
+            {
+              "dataSources" : [
+                {
+                  "kind" : "traktList",
+                  "payload" : {
+                    "listName" : "Popular 2020s Movies",
+                    "listSlug" : "popular-2020s-movies",
+                    "traktId" : 33032971,
+                    "username" : "snoak"
+                  }
+                }
+              ],
+              "hideTitle" : true,
+              "id" : "56F3BE1B-072E-49D1-AFD8-DD2283740A04",
+              "imageAspect" : "wide",
+              "imageURL" : "https:\/\/raw.githubusercontent.com\/itsrenoria\/fusion-starter-kit\/refs\/heads\/main\/resources\/widgets\/decades\/wide\/rdnoni\/2020s-wide.jpg",
+              "title" : "2020s"
+            }
+          ]
+        }
+      },
+      "id" : "collection.1F8F0EDF-4F65-4312-8880-FDED86C77271",
+      "title" : "Decades",
+      "type" : "collection.row"
+    },
+    {
+      "dataSource" : {
+        "kind" : "collection",
+        "payload" : {
+          "items" : [
+            {
+              "dataSources" : [
+                {
                   "kind" : "tmdbDiscover",
                   "payload" : {
                     "sortBy" : "popularity.desc",
